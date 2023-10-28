@@ -99,7 +99,7 @@
 						<div class="col-xl-9">
 							<div class="header-manu-content">
 								<ul>
-									<li><a href="#">Home</a></li>
+									<li><a href="{{ route('welcome') }}">Home</a></li>
 									<li><a href="#">Our School</a></li>
 									<li><a href="#">About Us</a></li>
 									<li>
@@ -112,7 +112,7 @@
 										</ul>
 									</li>
 									<li>
-									<li><a href="#">Students</a></li>
+									{{-- <li><a href="{{ route('') }}">Students</a></li> --}}
 									<li><a href="#">Result</a></li>
 									<li><a href="#">Notice</a></li>
 								    <li><a href="{{ route('contact') }}">contact us</a></li>
@@ -322,4 +322,5 @@
 		<!-- Custom Scripts -->
         <script src="{{asset('fontend')}}/assets/js/custom.js"></script>
     </body>
+
 </html>

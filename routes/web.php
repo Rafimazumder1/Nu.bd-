@@ -1,10 +1,12 @@
 <?php
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 // routes/web.php
 Route::get('/contact', function () {
@@ -13,6 +15,12 @@ Route::get('/contact', function () {
 
 
 Auth::routes();
+
+
+
+ 
+Route::get('/index', [HomeController::class, 'index'])->name('index');
+
 
 
 
@@ -146,10 +154,13 @@ Route::group(['as'=>'admin.','prefix'=>'admin','namespace'=>'Admin','middleware'
         Route::get('transport/vehicle','TransportController@vehicle');
         Route::get('transport/vehicle/create','TransportController@vehicleCreate');
         Route::post('transport/vehicle/store','TransportController@vehicleStore');
+        
     
     
 });
 
 Route::group(['as'=>'partner.','prefix'=>'partner','namespace'=>'Patner','middleware'=>['auth','partner']], function (){
     Route::get('/home', 'DeshboardController@index')->name('home');
+
+
 });

@@ -16,7 +16,7 @@ $(document).ready(function(){
 	/*********** Nav menu ***************/
 	$('.nav-icon').click(function(){
 		$('.mobile-menubar').toggleClass('canvas-menu');
-		return false;
+		// return false;
 	});	
 	$('.nav-icon').click(function(){
 		$('.menubar-area1').slideToggle();
