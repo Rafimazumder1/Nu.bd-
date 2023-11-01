@@ -38,6 +38,7 @@
 	
     <body>
 		<script src="https://kit.fontawesome.com/bf499eed93.js" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/bf499eed93.js" crossorigin="anonymous"></script>
         <!--[if IE]>
     		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   		<![endif]-->
@@ -99,7 +100,7 @@
 						<div class="col-xl-9">
 							<div class="header-manu-content">
 								<ul>
-									<li><a href="{{ route('welcome') }}">Home</a></li>
+									<li><a href="#">Home</a></li>
 									<li><a href="#">Our School</a></li>
 									<li><a href="#">About Us</a></li>
 									<li>
@@ -184,7 +185,56 @@
             <!-- Your existing HTML content -->
         
           
-
+			<div class="background-image">
+				<div class="card-container">
+					<div class="card">
+						<i class="fa-solid fa-phone fa-shake fa-2xl" style="color: #0dfd11;padding-top: 15px; padding-bottom: 15px"></i>
+						<h2 style="padding: 10px;"></h2>
+						<p>+8801654829</p>
+					</div>
+		
+					<div class="card">
+						<i class="fa-solid fa-envelope fa-bounce fa-2xl" style="color: #0ae623; padding-top: 15px; padding-bottom: 15px"></i>
+						<h2>school@gmail.com</h2>
+						
+						<p>This is the second card content.</p>
+					</div>
+		
+					<div class="card">
+						<i class="fa-solid fa-mug-hot fa-beat fa-2xl" style="color: #17f207; padding-top: 15px; padding-bottom: 25px"></i>
+						<h2>We are always free for coffee</h2>
+						<p style="color:black">"Brings coffee when you come"</p>
+					</div>
+				</div>
+			</div>
+				
+			
+			<div class="container_l">
+						<div class="school_pic">
+						  <img src="fontend/assets/images/gallery/1.jpg" alt="School Picture"/>
+						</div>
+						<form id="contact" action="" method="post">
+						  <h1 style="color: red">Step to Success School</h1>
+						  <h4>Contact us for any related quote</h4>
+						  <fieldset>
+							<input placeholder="Your name" type="text" tabindex="1" required autofocus>
+						  </fieldset>
+						  <fieldset>
+							<input placeholder="Your Email Address" type="email" tabindex="2" required>
+						  </fieldset>
+						  <fieldset>
+							<input placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+						  </fieldset>
+						  <fieldset>
+							<textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+						  </fieldset>
+						  <fieldset>
+							<button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+						  </fieldset>
+						</form>
+					  </div>
+					</div>
+			
 
 
 

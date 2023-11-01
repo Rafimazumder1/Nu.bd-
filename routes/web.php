@@ -19,7 +19,7 @@ Auth::routes();
 
 
  
-Route::get('/index', [HomeController::class, 'index'])->name('index');
+Route::get('/our_school', [HomeController::class, 'ourschool'])->name('our_school');
 
 
 

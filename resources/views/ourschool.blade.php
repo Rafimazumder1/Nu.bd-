@@ -171,6 +171,16 @@
         Magic Card
       </div>
     </div>
+<div class="our_sc">
+    <div class="card">
+        Magic Card
+      </div>
+    </div>
+<div class="our_sc">
+    <div class="card">
+        Magic Card
+      </div>
+    </div>
       
       <a href="https://mythrillfiction.com/" target="_blank">Mythrill</a>
 </body>

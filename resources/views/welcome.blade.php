@@ -32,6 +32,22 @@
         <link rel="stylesheet" href="{{asset('fontend')}}/assets/css/responsive.css">
     </head>
     <body>
+		@extends('layouts.app')
+@section('title', 'NEDUBD SCHOOL')
+
+@section('content')
+
+
+<!--start news area-->
+@include('components/welcome/news')
+<!--End news area-->
+
+<!-- Start Middle Content Area -->
+@include('components/welcome/middleContent')
+<!-- End Middle Content Area -->
+
+
+@endsection
         <!--[if IE]>
     		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   		<![endif]-->
